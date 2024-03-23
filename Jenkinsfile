@@ -1,4 +1,4 @@
-Pipeline{
+pipeline{
     agent any
     environment {
         NEXUS_USER = credentials('nexus-username')
